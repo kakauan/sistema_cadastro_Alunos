@@ -4,7 +4,7 @@ include('valida_sessao.php');
 // Inclui o arquivo de conexão com o banco de dados
 include('conexao.php');
 
-// Funcao para redimensionar e salvar a imagem
+// Função para redimensionar e salvar a imagem
 function redimensionarESalvarImagem($arquivo, $largura = 80, $altura = 80) {
     $diretorio_destino = "img/";
     if (!file_exists($diretorio_destino)) {

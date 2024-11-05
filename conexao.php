@@ -1,7 +1,6 @@
-<!-- 1ª Digitação (Aqui) -->
 <?php
 $servername = "localhost";
-$username ="root";
+$username = "root";
 $password = "";
 $dbname = "sistema";
 
