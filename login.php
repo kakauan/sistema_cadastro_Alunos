@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $senha = md5($_POST['senha']);
 
     // Monta a consulta SQL para verificar se o usuário e senha existem no banco.
-    $sql = "SELECT * FROM usuarios WHERE '$usuario' AND senha= '$senha'";
+    $sql = "SELECT * FROM usuarios WHERE '$usuario' AND senha = '$senha'";
     // Executa a consulta e armazena o resultado.
     $result = $conn->query($sql);
 
